@@ -1,0 +1,10 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.google.accompanist:accompanist-pager:<version>"
+
+    // If using indicators, also depend on 
+    implementation "com.google.accompanist:accompanist-pager-indicators:<version>"
+}
